@@ -5,7 +5,7 @@
 #define TAM 10
 
 struct Camada{
-  char* palavra_linha; //Armazena a palavra e a linha lidas à pilha
+  char palavra_linha[100]; //Armazena a palavra e a linha lidas à pilha
 };
 
 struct Pilha{
@@ -53,8 +53,4 @@ void desempilhar(pilha* p){
 		return;
 	}
 	p->topo--;
-}
-
-void preencheCamada(char* palavra_linha, camada* c){
-	c->palavra_linha = palavra_linha;
 }

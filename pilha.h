@@ -16,6 +16,6 @@ int pilhaVazia(pilha*);
 //verifica se a pilha está vazia
 int pilhaCheia(pilha*);
 //verifica se a pilha está cheia
-void preencheCamada(int x, int y, camada*);
+
 
 #endif
