@@ -54,3 +54,19 @@ void desempilhar(pilha* p){
 	}
 	p->topo--;
 }
+
+void getPalavraLinha(pilha *p, char palavra[]){
+  int i = 0;
+  for (i = 0; (p->posicoes[p->topo]).palavra_linha[i] != '\0'; i++){
+    palavra[i] = (p->posicoes[p->topo]).palavra_linha[i];
+  }
+  palavra[i] = '\0';
+}
+
+void setPalavraLinha(camada *c, char palavra[]){
+  int i;
+  for (i = 0; palavra[i] != '\0'; i++){
+    (c)->palavra_linha[i] = palavra[i];
+  }
+  (c)->palavra_linha[i] = '\0';
+}

@@ -16,6 +16,9 @@ int pilhaVazia(pilha*);
 //verifica se a pilha está vazia
 int pilhaCheia(pilha*);
 //verifica se a pilha está cheia
-
+void getPalavraLinha(pilha *p, char palavra[]);
+//Escreve em um vetor auxiliar (palavra) o palavra da camada atual  da pilha
+void setPalavraLinha(camada *c, char palavra[]);
+//Escreve em uma camada à ser empilhada o vetor auxiliar (palavra)
 
 #endif

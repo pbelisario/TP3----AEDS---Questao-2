@@ -1,0 +1,10 @@
+d 11
+a 9
+alas 8
+lds 7
+ds 6
+ddee 5
+das 4
+das 3
+sdas 2
+nome 1
